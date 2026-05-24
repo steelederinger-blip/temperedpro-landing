@@ -249,15 +249,15 @@ body {
   gap: 36px;
 }
 
-.tp-nav-link {
+.tp-navbar .tp-nav-link {
   font-size: 14px;
   font-weight: 600;
   color: var(--tp-orange);
   transition: color var(--tp-transition);
 }
 
-.tp-nav-link:hover,
-.tp-nav-link:focus-visible {
+.tp-navbar .tp-nav-link:hover,
+.tp-navbar .tp-nav-link:focus-visible {
   color: var(--tp-orange-light);
 }
 
@@ -1225,15 +1225,15 @@ body {
     border-top: 1px solid rgba(250, 248, 245, 0.12);
   }
 
-  .tp-nav-mobile-link {
+  .tp-navbar .tp-nav-mobile-link {
     color: var(--tp-orange);
     font-size: 15px;
     font-weight: 600;
     padding: 10px 0;
   }
 
-  .tp-nav-mobile-link:hover,
-  .tp-nav-mobile-link:focus-visible {
+  .tp-navbar .tp-nav-mobile-link:hover,
+  .tp-navbar .tp-nav-mobile-link:focus-visible {
     color: var(--tp-orange-light);
   }
 
