@@ -3,11 +3,10 @@
 // Edit these to match your existing app routes — the components import from here.
 
 export const LANDING_CONFIG = {
-  // Existing app routes — adjust to match your real signup/login paths.
-  // These are React Router paths (same React app).
-  signupPath:  '/signup',
-  loginPath:   '/login',
-  appPath:     '/app', // wherever the post-login dashboard lives
+  // Auth routes live on the app subdomain.
+  signupPath:  'https://app.temperedpro.com/signup',
+  loginPath:   'https://app.temperedpro.com/login',
+  appPath:     'https://app.temperedpro.com',
 
   // External / informational
   supportEmail: 'support@temperedpro.com',

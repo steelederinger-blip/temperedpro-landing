@@ -1,6 +1,5 @@
 // src/components/landing/FinalCTASection.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { LANDING_CONFIG } from './landingConfig';
 
 export default function FinalCTASection() {
@@ -15,12 +14,12 @@ export default function FinalCTASection() {
           anytime before day four if it isn&apos;t right for you.
         </p>
 
-        <Link
-          to={LANDING_CONFIG.signupPath}
+        <a
+          href={LANDING_CONFIG.signupPath}
           className="tp-btn tp-btn-primary tp-btn-large"
         >
           Start 3-Day Free Trial
-        </Link>
+        </a>
 
         <p className="tp-final-cta-meta">
           Card required · Cancel anytime · No long-term commitment

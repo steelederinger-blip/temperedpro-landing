@@ -26,7 +26,7 @@ export default function LandingFooter() {
               <li><a href="#tools">Tools</a></li>
               <li><a href="#pricing">Pricing</a></li>
               <li><a href="#roadmap">Coming Soon</a></li>
-              <li><Link to={LANDING_CONFIG.loginPath}>Sign In</Link></li>
+              <li><a href={LANDING_CONFIG.loginPath}>Sign In</a></li>
             </ul>
           </div>
 

@@ -52,17 +52,17 @@ export default function LandingNavbar() {
           >
             Coming Soon
           </a>
-          <Link to={LANDING_CONFIG.loginPath} className="tp-nav-link">
+          <a href={LANDING_CONFIG.loginPath} className="tp-nav-link">
             Sign In
-          </Link>
+          </a>
         </div>
 
-        <Link
-          to={LANDING_CONFIG.signupPath}
+        <a
+          href={LANDING_CONFIG.signupPath}
           className="tp-btn tp-btn-primary tp-nav-cta"
         >
           Start Free Trial
-        </Link>
+        </a>
 
         {/* Mobile toggle — now controls menu state */}
         <button
@@ -102,22 +102,22 @@ export default function LandingNavbar() {
           >
             Coming Soon
           </a>
-          <Link
-            to={LANDING_CONFIG.loginPath}
+          <a
+            href={LANDING_CONFIG.loginPath}
             className="tp-nav-mobile-link"
             role="menuitem"
             onClick={() => setMenuOpen(false)}
           >
             Sign In
-          </Link>
-          <Link
-            to={LANDING_CONFIG.signupPath}
+          </a>
+          <a
+            href={LANDING_CONFIG.signupPath}
             className="tp-btn tp-btn-primary tp-nav-mobile-cta"
             role="menuitem"
             onClick={() => setMenuOpen(false)}
           >
             Start Free Trial
-          </Link>
+          </a>
         </div>
       )}
     </nav>

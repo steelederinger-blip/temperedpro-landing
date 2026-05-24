@@ -1,6 +1,5 @@
 // src/components/landing/HeroSection.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { LANDING_CONFIG } from './landingConfig';
 import logoHero from '../../assets/logo-hero.png';
 
@@ -32,12 +31,12 @@ export default function HeroSection() {
           </p>
 
           <div className="tp-hero-ctas">
-            <Link
-              to={LANDING_CONFIG.signupPath}
+            <a
+              href={LANDING_CONFIG.signupPath}
               className="tp-btn tp-btn-primary tp-btn-large"
             >
               Start 3-Day Free Trial
-            </Link>
+            </a>
             <a
               href="#tools"
               className="tp-btn tp-btn-secondary tp-btn-large"

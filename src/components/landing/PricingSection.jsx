@@ -1,6 +1,5 @@
 // src/components/landing/PricingSection.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { LANDING_CONFIG } from './landingConfig';
 
 const FEATURES = [
@@ -66,12 +65,12 @@ export default function PricingSection() {
               ))}
             </ul>
 
-            <Link
-              to={LANDING_CONFIG.signupPath}
+            <a
+              href={LANDING_CONFIG.signupPath}
               className="tp-btn tp-btn-primary tp-btn-large tp-price-cta"
             >
               Start 3-Day Free Trial
-            </Link>
+            </a>
 
             <p className="tp-price-disclosure">
               Card required at signup. Trial converts to paid subscription
