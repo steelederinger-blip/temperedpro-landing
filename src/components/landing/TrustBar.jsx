@@ -2,10 +2,10 @@
 import React from 'react';
 
 const STATS = [
-  { num: '1,500', sup: '+', label: 'PMP practice questions' },
-  { num: '180',   sup: 'Q', label: 'Full exam simulator' },
-  { num: '5',     sup: '',  label: 'Project scenario simulations' },
-  { num: '488',   sup: '',  label: 'PMP terms in the match bank' },
+  { num: '1,500+', label: 'PMP practice questions' },
+  { num: '180',    label: 'Full exam simulator' },
+  { num: '5',      label: 'Project scenario simulations' },
+  { num: '488',    label: 'PMP terms in the match bank' },
 ];
 
 export default function TrustBar() {
@@ -15,10 +15,7 @@ export default function TrustBar() {
         <div className="tp-trust-grid">
           {STATS.map((s) => (
             <div className="tp-trust-item" key={s.label}>
-              <div className="tp-trust-num">
-                {s.num}
-                {s.sup && <sup>{s.sup}</sup>}
-              </div>
+              <div className="tp-trust-num">{s.num}</div>
               <div className="tp-trust-label">{s.label}</div>
             </div>
           ))}
