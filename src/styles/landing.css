@@ -252,13 +252,13 @@ body {
 .tp-nav-link {
   font-size: 14px;
   font-weight: 600;
-  color: #EAF2F8;
+  color: var(--tp-orange);
   transition: color var(--tp-transition);
 }
 
 .tp-nav-link:hover,
 .tp-nav-link:focus-visible {
-  color: var(--tp-orange);
+  color: var(--tp-orange-light);
 }
 
 .tp-nav-cta {
@@ -1226,7 +1226,7 @@ body {
   }
 
   .tp-nav-mobile-link {
-    color: #EAF2F8;
+    color: var(--tp-orange);
     font-size: 15px;
     font-weight: 600;
     padding: 10px 0;
@@ -1234,7 +1234,7 @@ body {
 
   .tp-nav-mobile-link:hover,
   .tp-nav-mobile-link:focus-visible {
-    color: var(--tp-orange);
+    color: var(--tp-orange-light);
   }
 
   .tp-nav-mobile-cta {
