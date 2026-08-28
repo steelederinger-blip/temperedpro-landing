@@ -1,0 +1,21 @@
+# Temporary retirement redirect for the obsolete standalone TemperedPro sales site.
+# Keep these as 302 redirects until the canonical-route smoke test and observation
+# window are complete. Then promote them to 301 in a separate reviewed change.
+
+[[redirects]]
+  from = "/privacy"
+  to = "https://www.temperedpro.com/privacy"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/terms"
+  to = "https://www.temperedpro.com/terms"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.temperedpro.com/pmp"
+  status = 302
+  force = true
